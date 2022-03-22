@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝐞𝐒𝐩𝐨𝐫𝐭 🚬 ❱...**")
+    lel = await message.reply("ഞാൻ 𝐒𝐨𝐧𝐠 🥀 ഒന്നു എടുക്കട്ടേ 🙈 ഒന്നു കാത്തിരിക്കു 🥳.....")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -167,7 +167,7 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="༄🦄ᶦᶰᵈ᭄༂❦͟𝑨𝑺𝑯𝑹𝑨𝑭⋆͟ᶜ͟ᴿ͟ᴬ͟ᶻ͟ᴵ͟ᴱ͟ᚸ⃝⃘⃟⃠̰̃ᴷ͟ᵞ͟ᴬ͟ᵀ͟༄༂✰💞▓࿐",
+                            text="༄🦄ᵈ᭄༂❦͟𝑨𝑺𝑯𝑹𝑨𝑭⋆͟",
                             url=f"https://t.me/itz_me_monuuz"),
                             
                     InlineKeyboardButton(
@@ -220,7 +220,7 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="༄🦄ᶦᶰᵈ᭄༂❦͟𝑨𝑺𝑯𝑹𝑨𝑭⋆͟ᶜ͟ᴿ͟ᴬ͟ᶻ͟ᴵ͟ᴱ͟ᚸ⃝⃘⃟⃠̰̃ᴷ͟ᵞ͟ᴬ͟ᵀ͟༄༂✰💞▓࿐",
+                            text="༄🦄ᵈ᭄༂❦͟𝑨𝑺𝑯𝑹𝑨𝑭⋆͟",
                             url=f"https://t.me/itz_me_monuuz"),
                             
                     InlineKeyboardButton(
@@ -250,7 +250,7 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="༄🦄ᶦᶰᵈ᭄༂❦͟𝑨𝑺𝑯𝑹𝑨𝑭⋆͟ᶜ͟ᴿ͟ᴬ͟ᶻ͟ᴵ͟ᴱ͟ᚸ⃝⃘⃟⃠̰̃ᴷ͟ᵞ͟ᴬ͟ᵀ͟༄༂✰💞▓࿐",
+                            text="༄🦄ᵈ᭄༂❦͟𝑨𝑺𝑯𝑹𝑨𝑭⋆͟",
                             url=f"https://t.me/itz_me_monuuz"),
                             
                     InlineKeyboardButton(
@@ -277,7 +277,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
+                "😍✌ചക്കരെ  നിനക്ക്🎧  ഏത്💞 𝐒𝐨𝐧𝐠 🎸 വേണ്ടത് അത് 𝐏𝐥𝐚𝐲 ▶ 💞**"
             )
         await lel.edit("🔎")
         query = message.text.split(None, 1)[1]
@@ -304,7 +304,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🌸° 𝐒𝐨𝐧𝐠 🎸 𝐍𝐨𝐭 😒 𝐅𝐨𝐮𝐧𝐝 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 ° 🥀.**"
+                "**🌸° 𝐒𝐨𝐧𝐠 🎸 𝐍𝐨 😒 കിട്ടില്ല സ്പെല്ലിങ് മിസ്റ്റേക്ക് ഉണ്ട് ° 🥀.**"
             )
             print(str(e))
             return
@@ -318,7 +318,7 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="༄🦄ᶦᶰᵈ᭄༂❦͟𝑨𝑺𝑯𝑹𝑨𝑭⋆͟ᶜ͟ᴿ͟ᴬ͟ᶻ͟ᴵ͟ᴱ͟ᚸ⃝⃘⃟⃠̰̃ᴷ͟ᵞ͟ᴬ͟ᵀ͟༄༂✰💞▓࿐",
+                            text="༄🦄ᵈ᭄༂❦͟𝑨𝑺𝑯𝑹𝑨𝑭⋆͟",
                             url=f"https://t.me/itz_me_monuuz"),
                             
                     InlineKeyboardButton(
